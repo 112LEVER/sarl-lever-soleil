@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Page professionnelle dédiée aux projets immobiliers.">
+    <title>Présentation Professionnelle - Immobilier</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background-color: #003366;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        section {
+            padding: 20px;
+        }
+        .content {
+            max-width: 800px;
+            margin: auto;
+            background-color: white;
+            padding: 20px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        h1, h2 {
+            color: #003366;
+        }
+        footer {
+            background-color: #003366;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+        .contact-info {
+            margin-top: 20px;
+            font-size: 18px;
+        }
+        .email {
+            color: #003366;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Présentation Professionnelle</h1>
+    <p>Spécialiste des projets immobiliers</p>
+</header>
+
+<section>
+    <div class="content">
+        <h2>À propos de moi</h2>
+        <p>Passionné par l'immobilier depuis plusieurs années, j'ai eu l'occasion de travailler sur divers projets de rénovation, construction et investissement immobilier. Mon objectif est d'accompagner mes clients tout au long de leur projet, en leur offrant des solutions adaptées et sur mesure.</p>
+
+        <h2>Projets récents</h2>
+        <p>Voici quelques-uns des projets sur lesquels j'ai travaillé récemment :</p>
+        <ul>
+            <li>Rénovation complète d'un immeuble résidentiel à Paris.</li>
+            <li>Développement d'un complexe immobilier commercial dans la région lyonnaise.</li>
+            <li>Investissement locatif pour des propriétés à Bordeaux.</li>
+        </ul>
+
+        <h2>Contact</h2>
+        <p class="contact-info">Pour toute demande ou information, vous pouvez me contacter par e-mail :</p>
+        <p class="email">ton-email@example.com</p>
+    </div>
+</section>
+
+<footer>
+    <p>&copy; 2024 Présentation Professionnelle - Projets Immobiliers</p>
+</footer>
+
+</body>
+</html>
